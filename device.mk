@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
+    XiaomiDolby \
     XiaomiParts
 
 # Dexpreopt
