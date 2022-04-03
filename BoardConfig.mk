@@ -17,6 +17,9 @@
 
 BOARD_VENDOR := xiaomi
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 DEVICE_PATH := device/xiaomi/sweet
 
 BUILD_BROKEN_DUP_RULES := true
