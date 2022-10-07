@@ -244,7 +244,6 @@ PRODUCT_PACKAGES += \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay
 
-
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
 # Partitions
