@@ -634,6 +634,25 @@ vendor/etc/init/vppservice.rc|24c089e0e413cbb3fa6daaf0af4215870bdf1b8e
 -vendor/lib64/libvpphvx.so|d92a352a9990c77b5724784e8c827637b850d53e
 -vendor/lib64/libvpplibrary.so|71152f530320f55862c1f4afc1957597f4c8e9f0
 
+# Media (Dolby)
+-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+-vendor/lib/libdapparamstorage.so
+-vendor/lib/libdeccfg.so
+-vendor/lib/libstagefright_soft_ac4dec.so
+-vendor/lib/libstagefright_soft_ddpdec.so
+-vendor/lib/soundfx/libhwdap.so
+-vendor/lib/soundfx/libswgamedap.so
+-vendor/lib/soundfx/libswvqe.so
+-vendor/lib/vendor.dolby.hardware.dms@2.0.so
+-vendor/lib64/libdapparamstorage.so
+-vendor/lib64/libdlbdsservice.so
+-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
 # NFC
 -vendor/lib/libpn553_fw.so
 
