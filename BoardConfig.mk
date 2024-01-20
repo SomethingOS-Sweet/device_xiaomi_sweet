@@ -177,11 +177,6 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Trust
-TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
-TARGET_TRUST_USB_CONTROL_ENABLE := 0
-TARGET_TRUST_USB_CONTROL_DISABLE := 1
-
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2023-11-01
 
